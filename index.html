@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <title>The Game!</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="js/gamemanager.js"></script>
+    <script src="js/player.js"></script>
+    <script src="js/enemy.js"></script>
+</head>
+
+<body>
+<section class="container">
+    <div class="header">
+        <p>THE GAME</p>
+        <H2>Choose you character!</H2>
+
+    </div>
+    <div class="interface">
+        <a href="#" onclick="gameManager.setGameStart('Warrior')">
+            <img src="images/Warrior.jpg" alt="Warrior">
+            <div>
+                <h3>Warrior</h3>
+                <p>Player description.</p>
+            </div>
+        </a>
+        <a href="#" onclick="gameManager.setGameStart('Rogue')">
+            <img src="images/Rogue.jpg" alt="Rogue">
+            <div>
+                <h3>Rogue</h3>
+                <p>Player description.</p>
+            </div>
+        </a>
+        <a href="#" onclick="gameManager.setGameStart('Mage')">
+            <img src="images/Mage.jpg" alt="Mage">
+            <div>
+                <h3>Mage</h3>
+                <p>Player description.</p>
+            </div>
+        </a>
+        <a href="#" onclick="gameManager.setGameStart('Hunter')">
+            <img src="images/Hunter.jpg" alt="Hunter">
+            <div>
+                <h3>Hunter</h3>
+                <p>Player description.</p>
+            </div>
+        </a>
+    </div>
+    <div class="actions">
+
+    </div>
+    <div class="arena">
+        <p>Arena</p>
+    </div>
+    <div class="enemy">
+
+    </div>
+</section>
+</body>
+
+</html>
